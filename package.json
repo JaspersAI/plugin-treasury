@@ -1,0 +1,26 @@
+{
+  "name": "treasury",
+  "version": "1.0.0",
+  "description": "Yield-paying rates, the debt to the penny, auctions, and federal spending from Fiscal Data. No key.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaspersAI/plugin-treasury.git"
+  },
+  "jaspers": {
+    "sdk": "0.2.0"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test '*.test.ts'",
+    "package": "node scripts/package.mjs"
+  },
+  "devDependencies": {
+    "@jaspers-ai/sdk": "^0.2.0",
+    "@types/node": "^24.13.5",
+    "typescript": "^7.0.2",
+    "zod": "^4.6.5"
+  }
+}
